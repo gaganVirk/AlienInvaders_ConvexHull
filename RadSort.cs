@@ -18,7 +18,7 @@ namespace AlienInvaders_ConvexHull
         public int Compare(Point b, Point c)
         {
             int cw = a.X * b.Y - b.X * a.Y + b.X * c.Y - c.X * b.Y + c.X * a.Y - a.X * c.Y;
-            if(cw == 0)
+            if (cw == 0)
             {
                 double d1 = GetDistTo(b);
                 double d2 = GetDistTo(c);

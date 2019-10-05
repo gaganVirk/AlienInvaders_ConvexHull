@@ -26,6 +26,7 @@ namespace AlienInvaders_ConvexHull
                 string[] array = input.Split(' ');
                 int valOne = int.Parse(array[0]);
                 int valTwo = int.Parse(array[1]);
+                Console.WriteLine("{0} - {1}", valOne, valTwo);
                 if (pivot.X > valOne)
                 {
                     if (pivot.Y > valOne)
